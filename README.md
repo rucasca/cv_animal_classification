@@ -1,4 +1,4 @@
-### Introducción
+## Introducción
 
 Proyecto de visión por computador que tiene como objetivo el desarrollo de un modelo que permita clasificar imágenes en función del animal que se encuentre en las mismas.
 
@@ -10,12 +10,12 @@ Para ello, se toma como fuente de datos el dataset del [enlace](https://www.kagg
 
 En cuanto a la proporción de las mismas, se tiene que es la sigueinte
 
-<img  src="./assets/dist.png" alt="Proporciones" width="500" height="400"/> &nbsp;
+<img  src="./assets/dist.png" alt="Proporciones" width="500" height="350"/> &nbsp;
 
 &nbsp;
 
 
-### Herramientas utilizadas
+## Herramientas utilizadas
 Para la realización de este proyecto se utilizarán las librerías principales para la ciencia de datos, el tratamiento de imágenes y redes neuronales, `numpy`, `pandas`, `cv2` y `keras`.
 
 &nbsp;
@@ -26,7 +26,7 @@ Para generar el mismo número de instancias en cada una de las clases y evitar q
 
 &nbsp;
 
-### Modelos implementados
+## Modelos implementados
 
 En primera instancia se prueba la creación de redes neuronales de filtros grandes y pequeños para evaluar su rendimiento. En segunda instancia, se usa entrenan modelos mediante **transfer learmning**, tomando CNN como `ResNet50`.
 
