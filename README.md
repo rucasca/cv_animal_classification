@@ -4,13 +4,13 @@ Proyecto de visión por computador que tiene como objetivo el desarrollo de un m
 
 Para ello, se toma como fuente de datos el dataset del [enlace](https://www.kaggle.com/datasets/alessiocorrado99/animals10), que contiene instancias de 10 especies distintas en diferentes proporciones, por ende estando desbalanceado. Un ejemplo de una imagen por clase se muestra en la imagen inferior
 
-<img  src="./assets/problem.png" alt="Imagenes" width="500" height="500"/> &nbsp;
+<img  src="./assets/problem.png" alt="Imagenes" width="500" height="450"/> &nbsp;
 
 &nbsp;
 
 En cuanto a la proporción de las mismas, se tiene que es la sigueinte
 
-<img  src="./assets/dist.png" alt="Proporciones" width="500" height="500"/> &nbsp;
+<img  src="./assets/dist.png" alt="Proporciones" width="500" height="400"/> &nbsp;
 
 &nbsp;
 
