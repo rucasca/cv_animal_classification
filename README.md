@@ -4,13 +4,13 @@ Proyecto de visión por computador que tiene como objetivo el desarrollo de un m
 
 Para ello, se toma como fuente de datos el dataset del [enlace](https://www.kaggle.com/datasets/alessiocorrado99/animals10), que contiene instancias de 10 especies distintas en diferentes proporciones, por ende estando desbalanceado. Un ejemplo de una imagen por clase se muestra en la imagen inferior
 
-<img  src="./assets/problem.png" alt="Imagenes" width="1000" height="1000"/> &nbsp;
+<img  src="./assets/problem.png" alt="Imagenes" width="500" height="500"/> &nbsp;
 
 &nbsp;
 
 En cuanto a la proporción de las mismas, se tiene que es la sigueinte
 
-<img  src="./assets/dist.png" alt="Proporciones" width="1000" height="1000"/> &nbsp;
+<img  src="./assets/dist.png" alt="Proporciones" width="500" height="500"/> &nbsp;
 
 &nbsp;
 
@@ -34,11 +34,11 @@ En primera instancia se prueba la creación de redes neuronales de filtros grand
 
 Por último, para mejorar los resultados individuales de cada uno de los modelos y eliminar parte del error global cometido de forma individual (generalmente en este caso producido por la varianza de los modelos), se crea un **ensemble** de los anteriores, infiriendo la clase de una instancia por la clase mayoritaria de la media de las salidas de cada modelo.
 
-<img  src="./assets/ensemble.png" alt="Modelo ensemble" width="1000" height="1000"/> &nbsp;
+<img  src="./assets/ensemble.png" alt="Modelo ensemble" width="500" height="500"/> &nbsp;
 
 ### Evaluación de los resultados
 
 Dado que las clases en este punto están balanceadas, se hace uso como metrica de error **accuracy**. La matriz de confusión del conjunto de test para el ensemble resultante es la siguiente:
 
-<img  src="./assets/results.png" alt="Modelo ensemble" width="1000" height="1000"/> &nbsp;
+<img  src="./assets/results.png" alt="Modelo ensemble" width="500" height="500"/> &nbsp;
 
