@@ -1,0 +1,2 @@
+The dataset used for this project was obtained from the following link:
+https://www.kaggle.com/datasets/alessiocorrado99/animals10
